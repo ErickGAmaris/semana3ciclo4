@@ -5,7 +5,7 @@ from routes.productos import productos
 app = FastAPI(
 		title="Aplicacion FastAPI con MongoDB",
 		description="Esta es una aplicacion donde se va hacer una API REST",
-		version="0.0.0"
+		version="0.0.1"
 	)
 
 app.include_router(productos)
